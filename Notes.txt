@@ -1,0 +1,105 @@
+Gertie bone references:
+Telekinesis: 		j_cofin_base
+Concertina:		j_box_03
+WeaponComboHurtyGertie: j_pelvis
+
+
+General bone references some of which might be good to attach to Hurty Gertie:
+Head joint:		j_head
+Right wrist joint:	j_r_wrist
+Left wrist joint:	j_l_wrist
+Right weapon:		j_r_weapon
+Left weapon:		j_l_weapon
+Root / general Combos:	j_root
+Armor ref:		j_pelvis
+Right ankle:		j_r_ankle
+Left ankle:		j_l_ankle
+Right shoulder:		j_r_shoulder
+Left shoulder:		j_l_shoulder
+gems/ingredient ref:	SourceRoot
+Consumables:		SourceRightHand
+Codex:			codex_root
+
+
+Things to add:
+
+Make Frost Armor and Swamp Armor better or worse then put in appropriate loot set.
+
+Thrak's Party Starter: BrokenBottle -> maybe some kind of random potion effect
+Maxwell's Silver Hammer: JohnysMallet -> Good against hoardmen, stun?
+Healing Ham: BlackforestHam -> Deals hit damage, heals exhaustion.
+
+Frost Armor: FrostArmor -> Move/exhaust slower in blackforest, exhaust faster in swamp, slower in hell,
+
+
+
+
+Necro.Inventory GetItemSlot(ItemDef item)
+
+Necro.Inventory CanCraft(ItemDef itemDef)
+
+This might be an issue for making Weapons function as crafting components.
+It checks if an item kind is "Ingredient" or "Currency" to decide if
+something is stackable. Could cause you to do something like having weapons stack.
+ 	bool ItemDef.IsStackable
+
+This might be part of the above issue because it specifies that equipment is not
+the same as an ingredient.
+	bool ItemDef.IsEquipment
+
+This method seems to be responsible for the placement of 
+	void Inventory.SetEquipmentOnBody(Equippable equippable)
+
+This is probably going to be involved in removing things from persistent data
+	class HBS.Util.SerializationStream
+
+
+Use this to unlock Arena Mode (once it works):
+BeaconOn_004
+Wonders. The Arena of Kavos is found once more!
+
+Use this to unlock Colors of Sarkomand:
+BeaconOn_017
+Gratifying. The Plateau of Leng has been returned!
+
+
+
+Spoofing unarmed:
+Blackguards
+Axe, shortsword, movesets work well for strictly physical attacks.
+
+Longsword, Greatsword movesets might work for area of effect magic stuff.
+
+Rapier looks terrible without a weapon.
+
+Brute:
+Greatsword, Shortsword, Axe, Rapier, Longsword, Staff movesets work well.
+
+
+
+
+
+The arcanist needs:
+sprint,
+jump,
+maybe stun, knockdown,
+restoration (blessing),
+probably various potion related animations,
+consume,
+vomit,
+use scroll,
+throw bomb,
+interact (door),
+interact (chest),
+probably interact (devar)
+block, shield bash (shield),
+fast, fast power, slow, slow power attacks (staff),
+fast, fast power, slow, slow power attacks (hammer/mace),
+fast, fast power, slow, slow power attacks (PyramidSword),
+fast, fast power, slow, slow power attacks (Greatsword),
+fast, fast power, slow, slow power attacks (Axe),
+fast, fast power, slow, slow power attacks (),
+fast, fast power, slow, slow power attacks (),
+primary, secondary fire (crossbow),
+primary, secondary fire (wand),
+fire, block (shield cannon),

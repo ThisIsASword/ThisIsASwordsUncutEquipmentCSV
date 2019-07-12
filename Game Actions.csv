@@ -1,0 +1,19 @@
+"ID","Affects","Affect Inclusion","Affect Exclusion","Method","Radius","Duration","FX Banks","Params"
+"patchOver_Shoot_AmbassadorGem","Any",,,"ShootGems",50,,,"GemeaterGem"
+"patchOver_Shoot_IceShard","Any",,,"ShootProjectile",,,,"IceShard"
+"patchOver_Shoot_AbraxisBeam","Any",,,"ShootProjectile",5,0.6,,"AbraxisBeam"
+"patchOver_AllyRecoverExhaustionTiny","Ally",,,"Buff",,10,,"ExhaustionRate -2"
+"patchOver_OthersRecoverExhaustionTiny","Others",,,"Buff",,10,,"ExhaustionRate -2"
+"patchOver_MaxWellHammerSmash","Enemy",,,"WeaponFX",5,20,"clockworkflamefoot",
+"patchOver_HitDamageNoFriendly","Enemy",,,"Damage",,,,
+"patchOver_SpillBlood","Others",,,"SpawnItem",,,,"Special_Blood"
+"patchOver_StillettoClassism","Others",,,"WeaponClassism",,5,,"blackguard"
+"patchOver_BrutalBleed","Any",,,"Buff",,20,"curse","HealthRate -1"
+"patchOver_ThrakBrawl","Others",,,"Buff",,15,"aggravating","Aggravating, AttackBonus +1"
+"patchOver_MaybeSpawnShellMage","Any",,,"MaybeSpawnMinions",10,1,,"ShellMageNormal"
+"patchOver_FreezeWeakLong","Any",,,"Buff",,30,"freeze","Speed -10"
+"patchOver_AggroGemeaters","Enemy","gemeater",,"Buff",,-1,"aggravating","Aggravating"
+"patchOver_ScareSkeletons","Enemy","skeletons",,"Buff",,-1,"fear","Fear"
+"patchOver_RavensDive","Self",,,"TriggerDash",10,,,
+"patchOver_WeaponGrow","Enemy",,,"WeaponSizeChange",2,0.1,,
+"patchOver_SpeedStack","Self",,,"Buff",,15,,"Speed +10, ReducedStaminaAttack"

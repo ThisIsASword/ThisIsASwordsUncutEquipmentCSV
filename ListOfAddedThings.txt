@@ -1,0 +1,26 @@
+Weapons:
+Ambassador Greatsword
+Greatsword Tuln
+Skull Hammer
+Healing Ham
+Maxwell Hammer
+Thunder Hammer
+Sword of Ali
+Grine Curved Sword
+Bopha's Sickblade
+Spectral Shiv
+Winged Blade
+Shell Mace Hammer
+Large Wooden Shield
+Gold Buckler
+Pyramid Shortsword Acid
+Long Axe
+Staff of Points
+Pyramid Longsword Fire
+Berelaine Shield
+Base Shield 2
+Abraxis Wand
+
+
+Abraxis Wand should probably trigger a completely random game effect every time it's used
+or shoot a projectile that transforms the target into a random creature.
